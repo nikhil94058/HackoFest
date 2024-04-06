@@ -13,7 +13,13 @@ export const Login = () => {
       {!isAuthenticated ? (
         <div>
 
-          <div className="w-[132px] h-[47px] px-8 py-3.5 bg-white justify-center items-center gap-2.5 inline-flex"><button onClick={() => { loginWithRedirect(); notify(); }} className="text-blue-600 text-base font-normal font-['Inter'] capitalize">Log In</button></div>
+          <div className="w-[150pxpx] h-10 px-6 bg-amber-500 justify-start items-center gap-4 inline-flex ml-[700px] mt-5 hover:bg-amber-700">
+            <button className="text-right text-white text-base font-bold font-['Times New Roman'] " onClick={() => loginWithRedirect()}>Log In</button>
+            <div className="w-6 h-6 relative">
+              <img className="w-[17.99px] h-[14.40px] left-[3.01px] top-[4.80px] absolute" src="https://via.placeholder.com/18x14" />
+            </div>
+          </div>
+
         </div>) :
         (
           <div>Footor</div>
