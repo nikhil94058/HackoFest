@@ -63,5 +63,6 @@ async function main() {
 // and properly handle errors.
 main().catch((error) => {
   console.error(error);
+
   process.exitCode = 1;
 });
