@@ -30,6 +30,16 @@ const Hero = ({ data }) => {
       </div>
 
       <SliderC />
+      <div className='ml-[1600px]'>
+        <a href="" className="w-[223.75px]   h-[37px] text-black text-4xl font-normal font-['Inika'] ">view more ...</a>
+      </div>
+
+
+      <div>
+        <div className="w-[390.23px] h-[42.21px] text-black text-4xl font-normal font-['Inika']">FOR RENT!!</div>
+      </div>
+      <SliderC />
+      <a href="" className="w-[223.75px]   h-[37px] text-black text-4xl font-normal font-['Inika'] ">view more ...</a>
     </div>
   );
 };
