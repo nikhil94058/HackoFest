@@ -1,16 +1,13 @@
-/*import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';*/
-import MyComponent from './components/sidebar';
+import Hero from './components/Hero';
+import HomePage from './Pages/HomePage';
 
 function App() {
   return (
     <div>
-      {/*<Navbar />
-      <Hero />*/
-      /*<HomePage />*/}
-  <MyComponent/>
+      <HomePage />
     </div>
   );
 }
