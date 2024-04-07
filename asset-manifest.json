@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/HackoFest/static/css/main.dce5c05f.css",
+    "main.js": "/HackoFest/static/js/main.2a5d1cda.js",
+    "static/js/453.419a5d54.chunk.js": "/HackoFest/static/js/453.419a5d54.chunk.js",
+    "static/media/slick.svg": "/HackoFest/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/HackoFest/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/HackoFest/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/HackoFest/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/HackoFest/index.html",
+    "main.dce5c05f.css.map": "/HackoFest/static/css/main.dce5c05f.css.map",
+    "main.2a5d1cda.js.map": "/HackoFest/static/js/main.2a5d1cda.js.map",
+    "453.419a5d54.chunk.js.map": "/HackoFest/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dce5c05f.css",
+    "static/js/main.2a5d1cda.js"
+  ]
+}
