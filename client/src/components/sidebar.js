@@ -2,7 +2,7 @@ import * as React from "react";
 import 'tailwindcss/tailwind.css';
 
 
-const MyComponent = () => {
+const Sidebar = () => {
   return (
     <div className="fixed top-0 left-0 flex flex-col items-center justify-center px-2.5 pt-6 pb-20 bg-yellow-400 bg-opacity-90 max-w-[77px] h-full">
       {/* Images */}
@@ -52,4 +52,4 @@ const MyComponent = () => {
   );
 }
 
-export default MyComponent;
+export default Sidebar;
