@@ -21,7 +21,7 @@ const LoginPage = () => {
 
 
         </div>
-        <div className='bg-[]'></div>
+
       </div>
     </>
   );

@@ -8,6 +8,8 @@ import { useState, useEffect } from 'react';
 import SliderC from './components/SliderC';
 import PropertyPage from './Pages/PropertyPage'
 import Chatbot from './components/Chatbot';
+import Sell from './Pages/Sell';
+
 
 function App() {
   return (
@@ -21,7 +23,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/" component={<SliderC />} />
           {/*<Route path="/property/:id" component={PropertyPage} />*/}
-          <Route path="/test" element={<PropertyPage />} />
+          <Route path="/test" element={<Sell />} />
         </Routes>
       </div>
     </Router>
