@@ -5,9 +5,15 @@ import { createUserWithEmailAndPassword } from 'firebase/auth'
 export const Auth = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    console.log(auth.currentUser.email);
+
+    // console.log(auth?.currentUser?.email);
+
     const signIn = async () => {
-        await createUserWithEmailAndPassword(auth, email, password)
+        try{
+            await createUserWithEmailAndPassword(auth, email, password);
+        } catch (err) {
+            console.error(err);
+        }
     };
 
     return (
