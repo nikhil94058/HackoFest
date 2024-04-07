@@ -8,9 +8,12 @@ import { useState, useEffect } from 'react';
 import SliderC from './components/SliderC';
 import PropertyPage from './Pages/PropertyPage'
 import Chatbot from './components/Chatbot';
+import { Auth } from './components/auth';
+import './App.css';
 
 function App() {
   return (
+    <>
     <Router>
       <Chatbot />
       <div>
@@ -25,6 +28,10 @@ function App() {
         </Routes>
       </div>
     </Router>
+    <div classname="App">
+      <Auth /> 
+    </div>
+    </>
   );
 }
 
