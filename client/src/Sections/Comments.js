@@ -1,13 +1,13 @@
-import React from 'react'
-import { Review } from './Review'
-import Commetslider from './Commetslider'
-import Footer from '../components/Footer'
+import React from 'react';
+import { Review } from './Review';
+import Commetslider from './Commetslider';
+import Footer from '../components/Footer';
 
 const Comments = () => {
   return (
     <div>
       <div className='w-[1449px] h-[1058px] relative bg-gradient-to-b from-lime-200 to-lime-200 mt-[200px]'>
-        <div className="  w-[563.42px] text-slate-900 text-4xl font-extrabold font-['Inter'] leading-[45px] ">Reviews About This Property</div>
+        <div className="w-[563.42px] text-slate-900 text-4xl font-extrabold font-['Inter'] leading-[45px] ">Reviews About This Property</div>
         <center>
           <Review />
           <Commetslider />
@@ -21,7 +21,7 @@ const Comments = () => {
       </div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Comments
+export default Comments;

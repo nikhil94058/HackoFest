@@ -5,16 +5,23 @@ import Trends from './components/Trends';
 import HomePage from './Pages/HomePage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import SliderC from './components/SliderC';
+import PropertyPage from './Pages/PropertyPage'
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
     <Router>
+      <Chatbot />
       <div>
         <Navbar />
         <Sidebar />
         <Trends />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/" component={<SliderC />} />
+          {/*<Route path="/property/:id" component={PropertyPage} />*/}
+          <Route path="/test" element={<PropertyPage />} />
         </Routes>
       </div>
     </Router>

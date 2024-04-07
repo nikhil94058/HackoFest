@@ -13,7 +13,7 @@ function MyComponent() {
   ];
 
   return (
-    <div className="flex flex-col py-3.5 rounded-xl bg-slate-50 max-w-[280px] text-zinc-500 absolute top-0 right-0">
+    <div className="flex flex-col py-3.5 rounded-xl bg-slate-50 max-w-[280px] text-zinc-500 absolute top-[100px] right-[20px]">
       <div className="flex gap-5 items-start self-center px-5 py-px w-full text-xl font-black text-black max-w-[280px]">
         <div className="flex-auto mt-3">Trending Localities</div>
         <img
