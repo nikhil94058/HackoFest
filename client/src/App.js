@@ -8,25 +8,32 @@ import { useState, useEffect } from 'react';
 import SliderC from './components/SliderC';
 import PropertyPage from './Pages/PropertyPage'
 import Chatbot from './components/Chatbot';
+import { Auth } from './components/auth';
+import './App.css';
 import Sell from './Pages/Sell';
 
 
 function App() {
   return (
-    <Router>
-      <Chatbot />
-      <div>
-        <Navbar />
-        <Sidebar />
-        <Trends />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/" component={<SliderC />} />
-          {/*<Route path="/property/:id" component={PropertyPage} />*/}
-          <Route path="/test" element={<Sell />} />
-        </Routes>
+    <>
+      <Router>
+        <Chatbot />
+        <div>
+          <Navbar />
+          <Sidebar />
+          <Trends />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/" component={<SliderC />} />
+            {/*<Route path="/property/:id" component={PropertyPage} />*/}
+            <Route path="/test" element={<Sell />} />
+          </Routes>
+        </div>
+      </Router>
+      <div classname="App">
+        <Auth />
       </div>
-    </Router>
+    </>
   );
 }
 
