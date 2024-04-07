@@ -2,6 +2,7 @@ import React from 'react'
 import { Login } from './Login'
 import { useAuth0 } from "@auth0/auth0-react";
 import Logout from './Logout';
+import Navigation from './Navigation';
 const Navbar = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
   return (
@@ -21,6 +22,7 @@ const Navbar = () => {
 
       {!isAuthenticated ?
         <Login /> : <Logout />}
+
 
     </div>
 

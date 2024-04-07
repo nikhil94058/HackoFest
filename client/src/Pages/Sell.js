@@ -82,7 +82,7 @@ function Sell() {
         <hr />
 
         <div className='cards'>
-          {homes.map((home, index) => (
+          {/*homes.map((home, index) => (
             <div className='card' key={index} onClick={() => togglePop(home)}>
               <div className='card__image'>
                 <img src={home.image} alt="Home" />
@@ -97,7 +97,7 @@ function Sell() {
                 <p>{home.address}</p>
               </div>
             </div>
-          ))}
+          ))*/}
         </div>
 
       </div>

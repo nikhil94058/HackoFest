@@ -22,6 +22,7 @@ function App() {
           <Navbar />
           <Sidebar />
           <Trends />
+          <Sell />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/" component={<SliderC />} />
