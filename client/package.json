@@ -10,7 +10,6 @@
     "aos": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.2",
     "react-toastify": "^10.0.5",
@@ -45,6 +44,7 @@
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "@openzeppelin/contracts": "^4.7.3",
     "hardhat": "^2.12.0",
+    "react-router-dom": "^6.22.3",
     "tailwindcss": "^3.4.3"
   }
 }
